@@ -1,0 +1,32 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="cpu/cpu_z80_a.v" type="file.verilog" enable="1"/>
+        <File path="src/decoder.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_osc.v" type="file.verilog" enable="1"/>
+        <File path="src/io_device_in.v" type="file.verilog" enable="1"/>
+        <File path="src/my_fsm.v" type="file.verilog" enable="1"/>
+        <File path="src/ram_reg.v" type="file.verilog" enable="1"/>
+        <File path="src/rom0_reg.v" type="file.verilog" enable="1"/>
+        <File path="src/rom1_reg.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="video/datapijp.v" type="file.verilog" enable="1"/>
+        <File path="video/dvi_tx/dvi_tx.v" type="file.verilog" enable="1"/>
+        <File path="video/gowin_clkdiv/gowin_clkdiv_25_mhz.v" type="file.verilog" enable="1"/>
+        <File path="video/gowin_dpb/gowin_dpb.v" type="file.verilog" enable="1"/>
+        <File path="video/gowin_rpll/gowin_rpll_125_mhz.v" type="file.verilog" enable="1"/>
+        <File path="video/hdmi.v" type="file.verilog" enable="1"/>
+        <File path="video/timing_1024x768.v" type="file.verilog" enable="1"/>
+        <File path="cpu/T80_A/T80.vhd" type="file.vhdl" enable="1"/>
+        <File path="cpu/T80_A/T80_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="cpu/T80_A/T80_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="cpu/T80_A/T80_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="cpu/T80_A/T80_Reg.vhd" type="file.vhdl" enable="1"/>
+        <File path="cpu/T80_A/T80a.vhd" type="file.vhdl" enable="1"/>
+        <File path="video/zx_io_spectrum.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

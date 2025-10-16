@@ -1,0 +1,157 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\cpu_z80_a.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\datapijp.v'
+WARN  (EX3628) : Redeclaration of ANSI port 'video_addr' is not allowed("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\datapijp.v":25)
+WARN  (EX3628) : Redeclaration of ANSI port 'video_dout' is not allowed("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\datapijp.v":26)
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\hdmi.v'
+WARN  (EX3628) : Redeclaration of ANSI port 'rgb_clk' is not allowed("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\hdmi.v":15)
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\timing_1024x768.v'
+Undeclared symbol 'hcount', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\timing_1024x768.v":67)
+Undeclared symbol 'vcount', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\timing_1024x768.v":68)
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\gowin_rpll\gowin_rpll_125_mhz.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\gowin_dpb\gowin_dpb.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\gowin_clkdiv\gowin_clkdiv_25_mhz.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\decoder.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\gowin_osc.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\io_device_in.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\my_fsm.v'
+WARN  (EX3792) : Literal value 'd4 truncated to fit in 2 bits("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\my_fsm.v":19)
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\ram_reg.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\rom0_reg.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\rom1_reg.v'
+Analyzing Verilog file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v'
+Undeclared symbol 'clk_video', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":21)
+Undeclared symbol 'video_addr', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":22)
+Undeclared symbol 'video_dout', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":23)
+WARN  (EX3638) : 'video_addr' is already implicitly declared on line 22("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":27)
+WARN  (EX3638) : 'video_dout' is already implicitly declared on line 23("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":28)
+WARN  (EX3638) : 'clk_video' is already implicitly declared on line 21("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":29)
+Undeclared symbol 'douta', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":34)
+Undeclared symbol 'clk_spectrum', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":36)
+Undeclared symbol 'rd_n', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":37)
+Undeclared symbol 'wr_n', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":40)
+Undeclared symbol 'data_bus', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":47)
+WARN  (EX3638) : 'douta' is already implicitly declared on line 34("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":52)
+Undeclared symbol 'mreq_n', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":111)
+Undeclared symbol 'iorq_n', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":112)
+Undeclared symbol 'address_bus', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":113)
+WARN  (EX3638) : 'address_bus' is already implicitly declared on line 113("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":119)
+WARN  (EX3638) : 'data_bus' is already implicitly declared on line 47("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":120)
+WARN  (EX3638) : 'iorq_n' is already implicitly declared on line 112("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":121)
+WARN  (EX3638) : 'mreq_n' is already implicitly declared on line 111("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":121)
+WARN  (EX3638) : 'rd_n' is already implicitly declared on line 37("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":121)
+WARN  (EX3638) : 'wr_n' is already implicitly declared on line 40("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":121)
+WARN  (EX3638) : 'clk_spectrum' is already implicitly declared on line 36("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":136)
+Undeclared symbol 'resetn', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":154)
+Undeclared symbol 'cpu_rd_n', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":156)
+Undeclared symbol 'cpu_wr_n', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":157)
+Undeclared symbol 'key_0', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":160)
+Undeclared symbol 'key_1', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":161)
+Undeclared symbol 'key_2', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":162)
+Undeclared symbol 'key_3', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":163)
+Undeclared symbol 'key_4', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":164)
+Undeclared symbol 'key_5', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":165)
+Undeclared symbol 'key_6', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":166)
+Undeclared symbol 'key_7', assumed default net type 'wire'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":167)
+WARN  (EX3638) : 'key_0' is already implicitly declared on line 160("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":170)
+WARN  (EX3638) : 'key_1' is already implicitly declared on line 161("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":171)
+WARN  (EX3638) : 'key_2' is already implicitly declared on line 162("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":172)
+WARN  (EX3638) : 'key_3' is already implicitly declared on line 163("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":173)
+WARN  (EX3638) : 'key_4' is already implicitly declared on line 164("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":174)
+WARN  (EX3638) : 'key_5' is already implicitly declared on line 165("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":175)
+WARN  (EX3638) : 'key_6' is already implicitly declared on line 166("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":176)
+WARN  (EX3638) : 'key_7' is already implicitly declared on line 167("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":177)
+Analyzing VHDL file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80.vhd'
+Analyzing entity 't80'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80.vhd":87)
+Analyzing architecture 'rtl'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80.vhd":132)
+Analyzing VHDL file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_ALU.vhd'
+Analyzing entity 't80_alu'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_ALU.vhd":74)
+Analyzing architecture 'rtl'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_ALU.vhd":102)
+Analyzing VHDL file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_MCode.vhd'
+Analyzing entity 't80_mcode'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_MCode.vhd":78)
+Analyzing architecture 'rtl'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_MCode.vhd":150)
+Analyzing VHDL file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_Pack.vhd'
+Analyzing package 't80_pack'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_Pack.vhd":61)
+Analyzing VHDL file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_Reg.vhd'
+Analyzing entity 't80_reg'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_Reg.vhd":75)
+Analyzing architecture 'rtl'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_Reg.vhd":98)
+Analyzing VHDL file 'C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80a.vhd'
+Analyzing entity 't80a'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80a.vhd":76)
+Analyzing architecture 'rtl'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80a.vhd":100)
+WARN  (EX3786) : Assignment to input 'halt_n'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\cpu_z80_a.v":27)
+WARN  (EX3073) : Port 'm1_n' remains unconnected for this instance("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":133)
+Compiling module 'cpu_z80a'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\cpu_z80_a.v":1)
+Switching to VHDL mode to elaborate design unit 'T80a'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\cpu_z80_a.v":33)
+Processing 'T80a(rtl)'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80a.vhd":76)
+Processing 'T80(iowait=1)(rtl)'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80.vhd":87)
+Processing 'T80_MCode(rtl)'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_MCode.vhd":78)
+Processing 'T80_ALU(rtl)'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_ALU.vhd":74)
+Processing 'T80_Reg(rtl)'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_Reg.vhd":75)
+Returning to Verilog mode to proceed with elaboration("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\cpu_z80_a.v":33)
+Port is declared here("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\cpu_z80_a.v":6)
+Compiling module 'datapijp'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\datapijp.v":1)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\datapijp.v":18)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\datapijp.v":34)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\datapijp.v":39)
+Compiling module 'hdmi'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\hdmi.v":1)
+Compiling module '**'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\dvi_tx\dvi_tx.v":1088)
+Compiling module 'timing'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\timing_1024x768.v":1)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\timing_1024x768.v":33)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\timing_1024x768.v":36)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 1("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\timing_1024x768.v":67)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 1("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\timing_1024x768.v":68)
+Compiling module 'Gowin_rPLL_125_mhz'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\gowin_rpll\gowin_rpll_125_mhz.v":10)
+Compiling module 'Gowin_CLKDIV_25_mhz'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\gowin_clkdiv\gowin_clkdiv_25_mhz.v":10)
+WARN  (EX3670) : Actual bit length 24 differs from formal bit length 25 for port 'rgb'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\hdmi.v":76)
+Compiling module 'Gowin_DPB'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\gowin_dpb\gowin_dpb.v":10)
+Compiling module 'decoder'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\decoder.v":1)
+Compiling module 'Gowin_OSC'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\gowin_osc.v":1)
+Compiling module 'io_device_in'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\io_device_in.v":1)
+Compiling module 'my_fsm'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\my_fsm.v":1)
+Extracting RAM for identifier 'seq_mem'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\my_fsm.v":37)
+WARN  (EX3045) : Case inequality operator always evaluates to true due to comparison with 'x' or 'z'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\my_fsm.v":47)
+WARN  (EX3780) : Using initial value of 'seq_len' since it is never assigned("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\my_fsm.v":58)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\my_fsm.v":132)
+Compiling module 'ram8k_reg'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\ram_reg.v":1)
+Extracting RAM for identifier 'mem'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\ram_reg.v":12)
+Compiling module 'rom0_reg'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\rom0_reg.v":1)
+Extracting RAM for identifier 'mem'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\rom0_reg.v":12)
+Compiling module 'rom1_reg'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\rom1_reg.v":1)
+Extracting RAM for identifier 'mem'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\rom1_reg.v":12)
+Compiling module 'top'("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":1)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 19("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":147)
+WARN  (EX3771) : Module instantiation should have an instance name("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":181)
+WARN  (EX1998) : Net 'resetn' does not have a driver("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":154)
+WARN  (EX1998) : Net 'cpu_rd_n' does not have a driver("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":156)
+WARN  (EX1998) : Net 'cpu_wr_n' does not have a driver("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":157)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "io_cs[7]" of module "decoder" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\decoder.v":6)
+WARN  (EX0211) : The output port "io_cs[6]" of module "decoder" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\decoder.v":6)
+WARN  (EX0211) : The output port "io_cs[5]" of module "decoder" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\decoder.v":6)
+WARN  (EX0211) : The output port "io_cs[4]" of module "decoder" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\decoder.v":6)
+WARN  (EX0211) : The output port "io_cs[3]" of module "decoder" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\decoder.v":6)
+WARN  (EX0211) : The output port "io_cs[2]" of module "decoder" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\decoder.v":6)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input btn is unused("C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v":4)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\impl\gwsynthesis\zx_spectrum_v1.vg" completed
+WARN  (CK3000) : Can't calculate clocks' relationship between: "osc/osc_inst/OSCOUT.default_clk" and "my_hdmi/clk_25/clkdiv_inst/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "clk" and "osc/osc_inst/OSCOUT.default_clk"
+[100%] Generate report file "C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\impl\gwsynthesis\zx_spectrum_v1_syn.rpt.html" completed
+GowinSynthesis finish

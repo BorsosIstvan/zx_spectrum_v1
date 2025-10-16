@@ -1,0 +1,196 @@
+[
+ {
+  "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 14,
+    "InstName" : "my_hdmi",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/hdmi.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "hdmi",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/hdmi.v",
+      "InstLine" : 19,
+      "InstName" : "your_instance_name",
+      "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "DVI_TX_Top"
+     },
+     {
+      "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/hdmi.v",
+      "InstLine" : 38,
+      "InstName" : "timing1024x768",
+      "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/timing_1024x768.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "timing"
+     },
+     {
+      "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/hdmi.v",
+      "InstLine" : 59,
+      "InstName" : "clk_125",
+      "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/gowin_rpll/gowin_rpll_125_mhz.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_rPLL_125_mhz"
+     },
+     {
+      "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/hdmi.v",
+      "InstLine" : 63,
+      "InstName" : "clk_25",
+      "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/gowin_clkdiv/gowin_clkdiv_25_mhz.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_CLKDIV_25_mhz"
+     },
+     {
+      "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/hdmi.v",
+      "InstLine" : 70,
+      "InstName" : "dpijp",
+      "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/datapijp.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "datapijp"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 33,
+    "InstName" : "gw_dram",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/video/gowin_dpb/gowin_dpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_DPB"
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 58,
+    "InstName" : "rom0",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/rom0_reg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "rom0_reg"
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 68,
+    "InstName" : "rom1",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/rom1_reg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "rom1_reg"
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 78,
+    "InstName" : "ram3",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/ram_reg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ram8k_reg"
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 88,
+    "InstName" : "ram4",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/ram_reg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ram8k_reg"
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 98,
+    "InstName" : "ram5",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/ram_reg.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ram8k_reg"
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 110,
+    "InstName" : "ula",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/decoder.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "decoder"
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 122,
+    "InstName" : "Z80A",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/cpu_z80_a.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "cpu_z80a",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/cpu_z80_a.v",
+      "InstLine" : 16,
+      "InstName" : "cpu",
+      "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/T80_A/T80a.vhd",
+      "ModuleLine" : 76,
+      "ModuleName" : "T80a",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/T80_A/T80a.vhd",
+        "InstLine" : 150,
+        "InstName" : "u0",
+        "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/T80_A/T80.vhd",
+        "ModuleLine" : 87,
+        "ModuleName" : "T80",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/T80_A/T80.vhd",
+          "InstLine" : 391,
+          "InstName" : "mcode",
+          "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/T80_A/T80_MCode.vhd",
+          "ModuleLine" : 78,
+          "ModuleName" : "T80_MCode"
+         },
+         {
+          "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/T80_A/T80.vhd",
+          "InstLine" : 459,
+          "InstName" : "alu",
+          "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/T80_A/T80_ALU.vhd",
+          "ModuleLine" : 74,
+          "ModuleName" : "T80_ALU"
+         },
+         {
+          "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/T80_A/T80.vhd",
+          "InstLine" : 1058,
+          "InstName" : "Regs",
+          "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/T80_A/T80_Reg.vhd",
+          "ModuleLine" : 75,
+          "ModuleName" : "T80_Reg"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 137,
+    "InstName" : "osc",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/gowin_osc.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 152,
+    "InstName" : "io_in",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/io_device_in.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "io_device_in"
+   },
+   {
+    "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
+    "InstLine" : 181,
+    "InstName" : "i123",
+    "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/my_fsm.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "my_fsm"
+   }
+  ]
+ }
+]

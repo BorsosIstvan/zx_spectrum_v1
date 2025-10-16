@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\cpu_z80_a.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\datapijp.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\hdmi.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\timing_1024x768.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\gowin_rpll\gowin_rpll_125_mhz.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\gowin_dpb\gowin_dpb.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\gowin_clkdiv\gowin_clkdiv_25_mhz.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\video\dvi_tx\dvi_tx.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\decoder.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\gowin_osc.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\io_device_in.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\my_fsm.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\ram_reg.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\rom0_reg.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\rom1_reg.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\src\top.v" type="verilog"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80.vhd" type="vhdl"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_ALU.vhd" type="vhdl"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_MCode.vhd" type="vhdl"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_Pack.vhd" type="vhdl"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80_Reg.vhd" type="vhdl"/>
+        <File path="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\cpu\T80_A\T80a.vhd" type="vhdl"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\Gebruiker\Documents\Mij werks\FPGA\fpga-zx-spectrum\zx_spectrum_v1\impl\gwsynthesis\zx_spectrum_v1.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
