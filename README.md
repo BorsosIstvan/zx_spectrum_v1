@@ -103,3 +103,11 @@ Programozd be az FPGA-t a mellékelt Verilog kóddal.
 Töltsd be a BASIC programokat, amelyeket a my_fsm modul automatikusan begépel.
 
 A Spectrum emulátor a programokat az eredeti hardverhez hasonlóan futtatja.
+
+![ZX Spectrum HDMI Output](docs/screenshots/speccy_1.jpg)
+![ZX Spectrum HDMI Output](docs/screenshots/speccy_2.jpg)
+![ZX Spectrum HDMI Output](docs/screenshots/speccy_3.jpg)
+![ZX Spectrum HDMI Output](docs/screenshots/speccy_4.jpg)
+![ZX Spectrum HDMI Output](docs/screenshots/speccy_5.jpg)
+![ZX Spectrum HDMI Output](docs/screenshots/speccy_6.jpg)
+![ZX Spectrum HDMI Output](docs/screenshots/speccy_7.jpg)
