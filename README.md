@@ -28,11 +28,16 @@ Sound via HDMI
 
 ### Usage
 
-Program your FPGA with the provided Verilog code.
-
-Load BASIC programs to be typed automatically by the my_fsm typist module.
-
-The Spectrum emulator will run the programs as on the original hardware.
+1. **Clone this repository**
+   ``` https://github.com/BorsosIstvan/zx_spectrum_v1.git```
+2. Install the Gowin IDE (latest version recommended).
+3. Obtain a Tang Nano 9K or 20K FPGA board.
+4. Open the project in Gowin IDE ```zx_spectrum_v1.gprj```
+5. Connect the Tang Nano board via USB.
+6. Program the FPGA directly from Gowin IDE.
+7. Connect the FPGA to a TV/monitor using HDMI.
+8. Power on and enjoy the ZX Spectrum running on real FPGA hardware!
+9. (Optional) Use the my_fsm typist module to automatically type BASIC programs just like on the original Spectrum.
 
 ## Nederlands (NL)
 ### Overzicht
@@ -63,11 +68,15 @@ Geluid via HDMI
 
 ### Gebruik
 
-Programmeer de FPGA met de meegeleverde Verilog code.
-
-Laad BASIC-programma’s die automatisch door de my_fsm typist module worden ingetypt.
-
-De Spectrum-emulator draait de programma’s zoals op de originele hardware.
+1. **Kloon deze repository**  ``` https://github.com/BorsosIstvan/zx_spectrum_v1.git```
+2. Installeer de Gowin IDE (bij voorkeur de nieuwste versie).
+3. Koop een Tang Nano 9K of 20K FPGA-board.
+4. Open het project in Gowin IDE  ```zx_spectrum_v1.gprj```
+5. Verbind de Tang Nano via USB.
+6. Programmeerd de FPGA rechtstreeks vanuit Gowin IDE.
+7. Sluit de FPGA via HDMI aan op een TV of monitor.
+8. Zet het systeem aan en geniet van de ZX Spectrum op echte FPGA!
+9. (Optioneel) Gebruik de my_fsm typist-module om BASIC-programma’s automatisch in te laten typen, zoals op het origineel.
 
 ## Magyar (HU)
 ### Áttekintés
@@ -98,11 +107,15 @@ Hang HDMI-n keresztül
 
 ### Használat
 
-Programozd be az FPGA-t a mellékelt Verilog kóddal.
-
-Töltsd be a BASIC programokat, amelyeket a my_fsm modul automatikusan begépel.
-
-A Spectrum emulátor a programokat az eredeti hardverhez hasonlóan futtatja.
+1. **Klonozd le a repository-t**  ``` https://github.com/BorsosIstvan/zx_spectrum_v1.git```
+2. Telepítsd a Gowin IDE-t (lehetőleg a legújabb verziót).
+3. Szerezz be egy Tang Nano 9K vagy 20K FPGA panelt.
+4. Nyisd meg a projektet a Gowin IDE-ben  ```zx_spectrum_v1.gprj```
+5. Csatlakoztasd a Tang Nano-t USB-n keresztül.
+6. Programozd be az FPGA-t közvetlenül a Gowin IDE-ből.
+7. Csatlakoztasd a panelt HDMI-n keresztül egy TV-hez vagy monitorhoz.
+8. Kapcsold be és élvezd a ZX Spectrum működését valódi FPGA hardveren!
+9. (Opcionális) Használd a my_fsm typist modult BASIC programok automatikus begépeléséhez – pont úgy, mint az eredeti Spectrumon.
 
 ![ZX Spectrum HDMI Output](docs/screenshots/speccy_1.jpg)
 ![ZX Spectrum HDMI Output](docs/screenshots/speccy_2.jpg)
