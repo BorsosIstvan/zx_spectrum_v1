@@ -17,7 +17,7 @@ module my_fsm (
     localparam STATE_RELASE = 2'd2;
     localparam STATE_NEXT = 2'd3;
     localparam STATE_DONE = 2'd4;
-    localparam MAX_KEYS = 128;
+    localparam MAX_KEYS = 1024;
 
     reg [2:0] state;
     reg [31:0] timer;
@@ -83,12 +83,12 @@ module my_fsm (
                         code <= seq_mem[key_index];
 //                        key_0 <= (code[15:8] == 8'd0) ? code[4:0] : 5'b11111;
                         key_0 <= (code[15:8] == 8'd0) ?
-                                ( (code[7:5] == 3'b010) ?
+                                ( (code[6] == 1'b1) ?
                                     (code[4:0] & 5'b11110) :   // toets + CS
                                     code[4:0]                  // alleen toets
                                 )
                             :
-                                ( (code[7:5] == 3'b010) ?
+                                ( (code[6] == 1'b1) ?
                                     5'b11110 :                 // alleen CS
                                     5'b11111                   // niks
                                 );
@@ -100,12 +100,12 @@ module my_fsm (
                         key_6 <= (code[15:8] == 8'd6) ? code[4:0] : 5'b11111;
 //                        key_7 <= (code[15:8] == 8'd7) ? code[4:0] : 5'b11111;
                         key_7 <= (code[15:8] == 8'd7) ?
-                                ( (code[7:5] == 3'b001) ?
+                                ( (code[5] == 1'b1) ?
                                     (code[4:0] & 5'b11101) :   // toets + SS
                                     code[4:0]                  // alleen toets
                                 )
                             :
-                                ( (code[7:5] == 3'b001) ?
+                                ( (code[5] == 1'b1) ?
                                     5'b11101 :                 // alleen SS
                                     5'b11111                   // niks
                                 );

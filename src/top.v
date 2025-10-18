@@ -49,6 +49,7 @@ wire clk_video;
         .dinb(8'b0) //input [7:0] dinb
     );
 // ============= tristate bus ===============
+
 wire [7:0] douta;
 assign data_bus = (!rd_n && ram_cs[2] && !wr_n) ? 8'bz :
                   (!rd_n && ram_cs[2]) ? douta : 8'bz;
@@ -98,7 +99,7 @@ ram8k_reg ram4 (
 ram8k_reg ram5 (
     .clk(clk_spectrum),
     .reset(!reset_n),
-    .ce(ram_cs[5]),
+    .ce(ram_cs[5] | ram_cs[6] | ram_cs[7]),
     .oce(~rd_n),
     .wre(~wr_n),
     .ad(address_bus[12:0]),
@@ -146,7 +147,7 @@ always @(posedge clk_spectrum) begin
     else
         cnt <= cnt + 1;
 end
-assign int_n = (cnt < 5)? 1'b0 : 1'b1;
+assign int_n = (cnt < 140)? 1'b0 : 1'b1;
 
 // ============= io =================
     io_device_in io_in (

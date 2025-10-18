@@ -52,6 +52,7 @@ char_map = {
 #    'Z': (1, 0b11110, 0b010),  # SS + a
     'z': (0, 0b11101, 0b000),
     'Z': (0, 0b11101, 0b010),
+    ':': (0, 0b11101, 0b001),
     'x': (0, 0b11011, 0b000),
     '[': (0, 0b11011, 0b010),   #ink
     'X': (0, 0b11011, 0b010),
@@ -118,7 +119,26 @@ keyword_map = {
     "GOTO":  (1, 0b01111, 0b010),
     "INK":   (0, 0b11011, 0b001),
     "PAPER": (0, 0b10111, 0b001),
-    
+    "BORDER": (7, 0b01111, 0b001),
+    "SS":    (7, 0b11101, 0b000),
+    "CS":    (0, 0b11110, 0b000),
+    "GS":    (4, 0b11101, 0b010),
+    "ES":    (0, 0b11110, 0b001),
+    "FOR":   (1, 0b10111, 0b010),
+    "TO":    (1, 0b10111, 0b001),
+    "NEXT":  (7, 0b10111, 0b010),
+    "PAUSE": (7, 0b11011, 0b010),
+    "REM":   (2, 0b11011, 0b010),
+#    `\`:     (1, 0b11011, 0b001),
+    "|":     (1, 0b11101, 0b001),
+    "/":     (0, 0b01111, 0b010),
+    "^":     (6, 0b01111, 0b001),
+    "SAVE":  (1, 0b11101, 0b010),
+    "POKE":  (5, 0b11101, 0b010),
+    "USR":   (6, 0b11101, 0b000),
+    "PEEK":  (5, 0b11101, 0b000),
+    "RANDOMIZE":  (2, 0b01111, 0b010),
+    "CIRCLE":(6, 0b01111, 0b001),
 }
 
 # Zet een tuple (row, key, mod) om naar hexcode
@@ -145,20 +165,26 @@ def keyword_to_hex(keyword):
 def text_to_hex(text):
     hex_codes = []
 
-    for line in text.splitlines():  # verwerk regel per regel
-        tokens = line.split()  # splits de regel in woorden/tokens
+    for line in text.splitlines():
+        tokens = line.split()
 
-        for token in tokens:
+        for i, token in enumerate(tokens):
             if token.upper() in keyword_map:
                 hex_codes += keyword_to_hex(token)
             else:
                 for ch in token:
                     hex_codes.append(char_to_hex(ch))
-            hex_codes.append(char_to_hex(' '))  # spatie tussen tokens
 
-        hex_codes.append(char_to_hex('\n'))  # ENTER na elke regel
+            # Spatie toevoegen **alleen als**:
+            # - niet SS/CS
+            # - niet het laatste token van de regel
+            if token.upper() not in ["SS", "CS", "GS", "ES"] and i < len(tokens) - 1:
+                hex_codes.append(char_to_hex(' '))
 
-    hex_codes.append("FFFF")  # einde-markering
+        # ENTER aan het einde van de regel
+        hex_codes.append(char_to_hex('\n'))
+
+    hex_codes.append("FFFF")
     return hex_codes
 
 def main():

@@ -12,27 +12,27 @@
   <Part Number>: GW1NR-LV9QN88PC6/I5
   <Device>: GW1NR-9
   <Device Version>: C
-  <Created Time>:Thu Oct 16 20:12:52 2025
+  <Created Time>:Fri Oct 17 23:16:54 2025
 
 
 2. PnR Details
 
   Running placement:
-    Placement Phase 0: CPU time = 0h 0m 0.9s, Elapsed time = 0h 0m 0.9s
-    Placement Phase 1: CPU time = 0h 0m 0.061s, Elapsed time = 0h 0m 0.061s
-    Placement Phase 2: CPU time = 0h 0m 0.649s, Elapsed time = 0h 0m 0.65s
+    Placement Phase 0: CPU time = 0h 0m 0.852s, Elapsed time = 0h 0m 0.853s
+    Placement Phase 1: CPU time = 0h 0m 0.054s, Elapsed time = 0h 0m 0.054s
+    Placement Phase 2: CPU time = 0h 0m 0.725s, Elapsed time = 0h 0m 0.725s
     Placement Phase 3: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
     Total Placement: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s
  Running routing:
     Routing Phase 0: CPU time = 0h 0m 0.002s, Elapsed time = 0h 0m 0.001s
-    Routing Phase 1: CPU time = 0h 0m 0.736s, Elapsed time = 0h 0m 0.736s
+    Routing Phase 1: CPU time = 0h 0m 0.784s, Elapsed time = 0h 0m 0.785s
     Routing Phase 2: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
     Routing Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Total Routing: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
+    Total Routing: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s
  Generate output files:
     CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
 
- Total Time and Memory Usage: CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s, Peak memory usage = 345MB
+ Total Time and Memory Usage: CPU time = 0h 0m 7s, Elapsed time = 0h 0m 7s, Peak memory usage = 313MB
 
 
 3. Resource Usage Summary
@@ -40,15 +40,15 @@
   --------------------------------------------------------------------------------
   Resources                   | Usage                               | Utilization
   --------------------------------------------------------------------------------
-  Logic                       | 2853/8640                           |  34%
-    --LUT,ALU,ROM16           | 2781(2564 LUT, 217 ALU, 0 ROM16)    | -
+  Logic                       | 2998/8640                           |  35%
+    --LUT,ALU,ROM16           | 2926(2709 LUT, 217 ALU, 0 ROM16)    | -
     --SSRAM(RAM16)            | 12                                  | -
-  Register                    | 781/6693                            |  12%
+  Register                    | 792/6693                            |  12%
     --Logic Register as Latch | 0/6480                              |  0%
-    --Logic Register as FF    | 781/6480                            |  13%
+    --Logic Register as FF    | 792/6480                            |  13%
     --I/O Register as Latch   | 0/213                               |  0%
     --I/O Register as FF      | 0/213                               |  0%
-  CLS                         | 1756/4320                           |  41%
+  CLS                         | 1828/4320                           |  43%
   I/O Port                    | 11/71                               |  16%
   I/O Buf                     | 6                                   | -
     --Input Buf               | 2                                   | -
@@ -56,10 +56,10 @@
     --Inout Buf               | 0                                   | -
   IOLOGIC                     | 8/97                                | 9%
     --OSER10                  | 4
-  BSRAM                       | 26/26                               | 100%
+  BSRAM                       | 25/26                               | 97%
     --SDPB                    | 12
     --DPB                     | 4
-    --pROM                    | 10
+    --pROM                    | 9
   ================================================================================
 
 
@@ -81,7 +81,7 @@
   Clock Resource| Usage         | Utilization 
   ------------------------------------------
   PRIMARY       | 3/8           | 38%
-  LW            | 3/8           | 38%
+  LW            | 2/8           | 25%
   GCLK_PIN      | 1/3           | 34%
   CLKDIV        | 1/8           | 13%
   OSC           | 1/1           | 100%
@@ -95,11 +95,10 @@
   Signal         | Global Clock   | Location
   -------------------------------------------
   clk_d          | PRIMARY        |  TR BR
-  clk_video      | PRIMARY        |  TR BR BL
+  clk_video      | PRIMARY        |  TR BR
   clk_spectrum   | PRIMARY        |  TR TL BR BL
   reset_n_d      | LW             |  -
   Reset_s        | LW             |  -
-  A_i_14_39      | LW             |  -
   my_hdmi/serial_clk| HCLK           | BANK0_BANK1_HCLK0
   ===========================================
 

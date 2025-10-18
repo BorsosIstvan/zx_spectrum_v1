@@ -67,7 +67,7 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 58,
+    "InstLine" : 59,
     "InstName" : "rom0",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/rom0_reg.v",
     "ModuleLine" : 1,
@@ -75,7 +75,7 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 68,
+    "InstLine" : 69,
     "InstName" : "rom1",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/rom1_reg.v",
     "ModuleLine" : 1,
@@ -83,7 +83,7 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 78,
+    "InstLine" : 79,
     "InstName" : "ram3",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/ram_reg.v",
     "ModuleLine" : 1,
@@ -91,7 +91,7 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 88,
+    "InstLine" : 89,
     "InstName" : "ram4",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/ram_reg.v",
     "ModuleLine" : 1,
@@ -99,7 +99,7 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 98,
+    "InstLine" : 99,
     "InstName" : "ram5",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/ram_reg.v",
     "ModuleLine" : 1,
@@ -107,7 +107,7 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 110,
+    "InstLine" : 111,
     "InstName" : "ula",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/decoder.v",
     "ModuleLine" : 1,
@@ -115,7 +115,7 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 122,
+    "InstLine" : 123,
     "InstName" : "Z80A",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/cpu/cpu_z80_a.v",
     "ModuleLine" : 1,
@@ -169,7 +169,7 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 137,
+    "InstLine" : 138,
     "InstName" : "osc",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/gowin_osc.v",
     "ModuleLine" : 1,
@@ -177,7 +177,7 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 152,
+    "InstLine" : 153,
     "InstName" : "io_in",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/io_device_in.v",
     "ModuleLine" : 1,
@@ -185,8 +185,8 @@
    },
    {
     "InstFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/top.v",
-    "InstLine" : 181,
-    "InstName" : "i123",
+    "InstLine" : 182,
+    "InstName" : "i125",
     "ModuleFile" : "C:/Users/Gebruiker/Documents/Mij werks/FPGA/fpga-zx-spectrum/zx_spectrum_v1/src/my_fsm.v",
     "ModuleLine" : 1,
     "ModuleName" : "my_fsm"

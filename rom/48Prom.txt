@@ -1,0 +1,6 @@
+48Prom0.hex
+48Prom1.hex
+
+Deze twee bestanden werkt correct. 
+Let op de echte 48rom0.hex en 48rom1.hex is fout.
+Het stopt naar een PAUSE 10 opdracht.
